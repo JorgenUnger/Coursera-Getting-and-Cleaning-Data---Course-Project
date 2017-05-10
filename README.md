@@ -1,8 +1,8 @@
 
-#Coursera: Getting and Cleaning Data - Course Project
+# Coursera: Getting and Cleaning Data - Course Project
 
 
-###Files included in submission:
+### Files included in submission:
 
 `CodeBook.md` 
 
@@ -15,12 +15,12 @@
 
 
 
-###Dependencies
+### Dependencies
 To run the script You need to have R packages reshape2 installed, if not installed type `install.packages("reshape2")` in R Studio.
 
 
 
-###Script
+### Script
 Download `run_analysis.R` to working directory and type `source("run_analysis.R")` i R Studio to load the script and type run_analysis() to run the script, the scipt will:
 * if it not already exist, download [zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) of [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to working directory.
 * if not already unziped, unzip downloaded file to a folder named `UCI HAR Dataset`
