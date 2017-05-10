@@ -1,14 +1,14 @@
-#Code Book
+# Code Book
 
 Description of identifiers and variabels in output file `CleanedTidyData.txt` created with R script `run_analysis.R`.
 
-###Identifiers
-|Identifier name|Column index|Variabel structure description|Origin
-|:--|--:|:--|:--|
-|subject|1|Factor w/ 30 levels "1","2","3","4",...,"30"|`subject_train.txt` and `subject_test.txt`
-|activity|2|Factor w/ 6 levels "walking","walkingupstairs","walkingdownstairs", "sitting", "standing", "laying" |`activity_labels.txt`
+### Identifiers
+Identifier name|Column index|Variabel structure description|Origin
+:--|--:|:--|:--
+subject|1|Factor w/ 30 levels "1","2","3","4",...,"30"|`subject_train.txt` and `subject_test.txt`
+activity|2|Factor w/ 6 levels "walking","walkingupstairs","walkingdownstairs", "sitting", "standing", "laying" |`activity_labels.txt`
 
-###Variabels
+### Variabels
 |Variabel name|Column index|Origin variabel name|Origin  column index
 |:--|--:|:--|--:|
 |tBodyAccMeanX|3|tBodyAcc-mean()-X|1
