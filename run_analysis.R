@@ -68,6 +68,6 @@ run_analysis <- function() {
         all <- dcast(all, subject + activity ~ variable, mean)
         
         #Write txt file to Working Directory 
-        write.table(all, "CleanedTidyData.txt", quote = FALSE)
+        write.table(all, "CleanedTidyData.txt", quote = FALSE, row.names=FALSE)
 }
 
