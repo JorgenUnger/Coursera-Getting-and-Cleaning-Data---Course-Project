@@ -4,13 +4,15 @@
 
 ### Files included in submission:
 
+`CleanedTidyData.txt` (The output file from `run_analysis.R`)
+
 `CodeBook.md` 
 
 `README.md`
 
 `run_analysis.R` (The R script)
 
-`CleanedTidyData.txt` (The output file from `run_analysis.R`)
+
 
 
 
